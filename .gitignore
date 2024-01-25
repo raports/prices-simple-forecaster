@@ -1,1 +1,34 @@
-venv
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[co]
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+migrations/
+
+# VS Code
+.vscode/
+
+# Development
+*.sqlite3
+*.db
+
+# IDE
+.idea/
+.DS_Store
+
+# Environment
+env/
+venv/
+*.env
+.env.local
+.env.*.local
